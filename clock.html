@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analog clock</title>
+    <link rel="stylesheet" href="clock.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Frijole&display=swap"
+      rel="stylesheet"
+    />
+    <script src="clock.js"></script>
+  </head>
+  <body>
+    <h1>Analog clock</h1>
+    <div class="btnclass">
+      <button class="btn" id="btn1" onclick="changeTHeme()">Dark</button>
+      <button class="btn" id="btn2" onclick="changeTHeme1()">Light</button>
+    </div>
+    <div id="clockCont" class="clk">
+      <div id="hour"></div>
+      <div id="minute"></div>
+      <div id="second"></div>
+    </div>
+    <div class="analog" id="demo"></div>
+    <div class="buttons">
+      <button class="Img" id="imgid1" onclick="getImage1()">
+        <img src="clock1.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid2" onclick="getImage2()">
+        <img src="clock2.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid3" onclick="getImage3()">
+        <img src="clock3.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid4" onclick="getImage4()">
+        <img src="clock4.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid5" onclick="getImage5()">
+        <img src="clock5.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid6" onclick="getImage6()">
+        <img src="clock6.png" alt="1" width="70px" height="70px" />
+      </button>
+      <button class="Img" id="imgid7" onclick="getImage7()">
+        <img src="clock7.png" alt="1" width="70px" height="70px" />
+      </button>
+    </div>
+    <a
+      href="https://www.linkedin.com/in/kaushal-pandit-3a6845190"
+      target="”_blank”"
+      ><footer>By : Kaushal</footer></a
+    >
+    <script>
+      setInterval(myTimer, 1000);
+      function myTimer() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+      }
+    </script>
+  </body>
+</html>
