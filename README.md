@@ -5,3 +5,6 @@ Created an analog clock using html css and javascript
 ## Please checkout the link below to view index.html page 
 [Click here to see the origin page](https://kaushal90060.github.io/AnalogClock.github.io/)
 ## The pictures below is demo for the current project
+### 1. 
+![Screenshot (527)](https://user-images.githubusercontent.com/60690728/159163830-a09382cd-ce24-4a26-b5a2-f3b020f19375.png)
+### 2. 
