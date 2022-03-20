@@ -8,3 +8,4 @@ Created an analog clock using html css and javascript
 ### 1. 
 ![Screenshot (527)](https://user-images.githubusercontent.com/60690728/159163830-a09382cd-ce24-4a26-b5a2-f3b020f19375.png)
 ### 2. 
+![Screenshot (528)](https://user-images.githubusercontent.com/60690728/159163874-817167fb-2719-4c0b-814d-f3fb30fca291.png)
